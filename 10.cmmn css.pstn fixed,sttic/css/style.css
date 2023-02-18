@@ -1,0 +1,121 @@
+.project {
+    background-color: #20484F;
+    height: 100vh;
+}
+.left {
+    min-height: 100vh;
+    position: relative;
+}
+.right {
+    min-height: 100vh;
+    position: relative;
+    color: white;
+}
+.project .right .text {
+    position: absolute;
+    top: 30%;
+    left: 12%;
+    right: 12%;
+    margin: auto;
+}
+.project .right .btn {
+    color: #072125;
+    width: 4rem;
+    height: 2rem;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #B8E4DA;
+}
+.project .right input {
+    color: #e7edee;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    padding-left: 1rem;
+    width: 16rem;
+    height: 2rem;
+}
+.project .right h5,
+p,
+input,
+h1 {
+    margin-bottom: 1rem;
+}
+.project .left .greenbox {
+    height: 58%;
+    width: 62%;
+    background-color: #DAF0EB;
+    border-radius: 7rem;
+    position: absolute;
+    top: 30%;
+    left: 3%;
+    right: 12%;
+    margin: auto;
+    position: relative;
+}
+.project .left .boxleft {
+    width: 76%;
+    height: 295px;
+    background-color: white;
+    position: absolute;
+    top: -65px;
+    left: -49px;
+    border-radius: 28px;
+    padding: 1.5rem;
+}
+.project .left .boxbottom {
+    width: 112%;
+    height: 121px;
+    background-color: white;
+    position: absolute;
+    top: 285px;
+    left: -91px;
+    border-radius: 12px;
+    padding: 1rem;
+}
+.project .left .boxright {
+    width: 59%;
+    height: 260px;
+    background-color: white;
+    position: absolute;
+    top: 13px;
+    left: 214px;
+    border-radius: 28px;
+    padding: 1rem;
+    text-align: center;
+}
+.project .left .line {
+    height: 12px;
+    width: 80%;
+    background-color: #E9EDED;
+    border-radius: 7px;
+}
+.project .left i {
+    background-color: #DCF2ED;
+    border-radius: 2rem;
+    padding: 2px;
+    width: 20px;
+    height: 20px
+}
+.project .boxleft button {
+    height: 2rem;
+    width: 100%;
+    background-color: turquoise;
+    border: none;
+    border-radius: 10px;
+}
+
+.project .left .boxbottom .icon i {
+    padding: 2rem;
+    width: 4rem;
+    height: 4rem;
+    padding: 18px;
+    font-size: 27px;
+}
+.project .left .boxright img {
+    height: 44px;
+    width: 27%;
+    border-radius: 2rem;
+    border: 2px solid turquoise;
+    padding: 2px;
+    margin-top: 25%;
+}
