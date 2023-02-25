@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson12</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/common.css">
+
+</head>
+
+<body style="background-color: #F1F1F1;">
+    <section class="header" style="height: 200px ;">
+
+    </section>
+    <section class="input">
+        <div class="container main " style="width: 70%; background-color:white ;min-height: 100vh;">
+            <h2 class="h2 mb-1">Hörmətli istifadəçi!</h2>
+            <p class="p mb-1">Azərbaycan Respublikası Prezidenti cənab İlham Əliyevə və Prezident Administrasiyasına məktub göndərmək
+                ücün aşağıdakı formanı doldurun. Diqqətli olmağınız Sizdən xahiş olunur!</p>
+            <p class="p mb-1"> <span class="redstar">*</span>-vacib sahələr)</p>
+
+            <form class="form" action="">
+                <div class="row mb-1">
+                    <div class="col-lg-4 ad">
+                        <label for=""><b>Adınız </b> <sup class="redstar">*</sup></label>
+                        <input class="text" type="text" required>
+                    </div>
+                    <div class="col-lg-4 ad">
+                        <label for=""><b>Soyadınız</b><sup class="redstar">*</sup></label>
+                        <input class="text" type="text" required>
+                    </div>
+                    <div class="col-lg-4 ad">
+                        <label for=""><b>Atanızın adı</b><sup class="redstar">*</sup></label>
+                        <input class="text" type="text" required>
+                    </div>
+
+                </div>
+                <div class="row mb-1">
+                    <div class="col-lg-6 two">
+                        <label for=""><b>Ölkə<sup class="redstar">*</sup> Azərbaycan</b></label>
+                        <input class="text" type="text" required>
+                    </div>
+                    <div class="col-lg-6 two">
+                        <label for=""><b>Şəhər<sup class="redstar">*</sup></b></label>
+                        <input class="text" type="text" required>
+                    </div>
+                </div>
+
+                <div class="mb-1">
+                    <label for=""><b>Ünvan<sup class="redstar">*</sup></b></label>
+                    <input class="text" type="text" required>
+                </div>
+
+                <div class="row mb-1">
+                    <div class="col-lg-6 two">
+                        <label for=""><b>Telefon<sup class="redstar">*</sup></b></label>
+                        <input class="text" type="text" required>
+                    </div>
+                    <div class="col-lg-6 two">
+                        <label for=""><b>e-Mail<sup class="redstar">*</sup></b></label>
+                        <input class="text" type="text" required>
+                    </div>
+
+                </div>
+                <div class="row mb-1">
+                    <div class="yas" style="width: 10%;">
+                        <label for=""><b>Yaşınız<sup class="redstar">*</sup></b></label>
+                        <input class="text" type="number" required>
+                    </div>
+                    <div class=" cins" style="width: 25%;margin-right: 50px;">
+                        <label for=""><b>Cinsiniz<sup class="redstar">*</sup></b></label>
+                        <div class="row" style="width:80%; margin-top: 1rem;">
+                            <div class="row">
+                                <input class="radio" type="radio" name="cins" required>
+                                <label for="">Kişi </label>
+                            </div>
+                            <div class="row">
+                                <input class="radio" type="radio" name="cins" required>
+                                <label for="">Qadın</sup></b></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" divselect">
+                        <label for=""><b>Sosial durum<sup class="redstar">*</sup></b></label>
+                        <select class="select" for="">
+                            <option value="" style="color: #2242A3;">--Siyahıdan seçin--</option>
+                            <option value="">dövlət qulluqçusu</option>
+                            <option value="">qulluqçu</option>
+                            <option value="">elmi işçi</option>
+                            <option value="">təhsil işçisi</option>
+                            <option value="">səhiyyə işçisi</option>
+                            <option value="">mədəniyyət işçisi</option>
+                            <option value="">din xadimi</option>
+                            <option value="">sahibkar</option>
+                            <option value="">tələbə</option>
+                            <option value="">kəndli</option>
+                            <option value="">təqaüdçü</option>
+                            <option value="">evdar qadın</option>
+                            <option value="">fəhlə </option>
+                            <option value="">işsiz</option>
+
+
+                        </select>
+
+                    </div>
+
+                </div>
+                <div class="nov mb-1" style="width:40%;">
+                    <label for=""><b>Müraciətin növü<sup class="redstar">*</sup></b></label>
+                    <div class="row" style=" margin-top: 1rem;">
+                        <div class="row">
+                            <input class="radio" type="radio" name="muraciet" required>
+                            <label for="">Təklif </label>
+                        </div>
+                        <div class="row">
+                            <input class="radio" type="radio" name="muraciet" required>
+                            <label for="">Ərizə</sup></b></label>
+                        </div>
+                        <div class="row">
+                            <input class="radio" type="radio" name="muraciet" required>
+                            <label for="">Şikayət</sup></b></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-1" style="margin-top: 1rem;">
+                    <h4>Müraciətin mövzusu<sup class="redstar">*</sup></h4>
+                </div>
+                <div  style="width: 70%;" class=" divselect mb-1">
+                    <label for=""><b>Əsas mövzu<sup class="redstar">*</sup></b></label>
+                    <select class="select" for="">
+                        <option value="" style="color: #2242A3;">--Siyahıdan seçin--</option>
+                        <option value="">dövlət qulluqçusu</option>
+                        <option value="">qulluqçu</option>
+                        <option value="">elmi işçi</option>
+                        <option value="">təhsil işçisi</option>
+                        <option value="">səhiyyə işçisi</option>
+                        <option value="">mədəniyyət işçisi</option>
+                        <option value="">din xadimi</option>
+                        <option value="">sahibkar</option>
+                        <option value="">tələbə</option>
+                        <option value="">kəndli</option>
+                        <option value="">təqaüdçü</option>
+                        <option value="">evdar qadın</option>
+                        <option value="">fəhlə </option>
+                        <option value="">işsiz</option>
+                    </select>
+
+                </div>
+                <div class="mb-1" >
+                    <label class="mb-2" for=""><b>Müraciət<sup class="redstar">*</sup></b></label>
+                    <br>
+                    <textarea maxlength="500" style="border:1px solid #CCCCCC; border-radius: 5px;" name="" id="" cols="115" rows="20"></textarea>
+                </div  >
+                <div  style="text-align: center;">   
+                     <button type="submit">Təsdiq edin</button>
+                </div>
+            </form>
+        </div>
+        </div>
+    </section>
+    <section class="footer" style="height: 200px; background-color: #1B346A;">
+
+    </section>
+</body>
+
+</html>
