@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&family=Rajdhani:wght@600&display=swap');
+.mtb{
+    margin: 1rem 0;
+}
+.services{
+    height: 100vh;
+    font-size: 22px;
+    background-color: #ffffff;
+        .head,
+        .right h4{
+            font-family: 'Rajdhani', sans-serif;   
+            letter-spacing: 1px;
+
+        }
+    .head{
+        text-align: center;
+       h5{
+           letter-spacing: 3px;
+       }
+        .line{
+            width: 5%;
+            height: 1px;
+            background-color: #E1E1E1;
+            margin: auto;
+        }
+    }
+    .box{
+        margin-top: 3rem;
+        .left{
+            height: 80px;
+            width: 23%;
+            border: 2px solid #FBDDA0;
+            border-radius: 12px;
+            padding: 22px;
+            transform: rotate(45deg);
+            
+            i{
+                font-size: 27px;
+                color: #FFC446;
+                transform: rotate(-45deg);
+            }
+            
+            
+        }
+        .right{
+            padding:0 30px;
+            font-size: 12px;
+            line-height: 20px;
+            h3{
+                margin-bottom: 5px;
+                color: #515D61;
+                font-family: 'Oswald', sans-serif;
+                letter-spacing: 1px;
+            }
+            p{
+                color: #A4A4A4;
+            }
+        }
+
+    }
+}
