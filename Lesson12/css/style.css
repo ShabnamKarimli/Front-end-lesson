@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap");
+.header {
+  padding-top: 3rem;
+}
+.header ul {
+  list-style: none;
+}
+.header ul li {
+  padding: 10px 5px;
+}
+.header ul li a {
+  font-size: 20px;
+  text-decoration: none;
+}
+.header .gerb img {
+  width: 100%;
+  height: 100px;
+  padding: 5px;
+}
+.header .text {
+  font-size: 30px;
+  letter-spacing: 1px;
+  padding: 1rem 0 0 1rem;
+  color: #012F3F;
+}
+.header .icons {
+  font-size: 20px;
+  padding-top: 1rem;
+  color: #224285;
+}
+.header .icons .icon {
+  padding: 7px -7px 0 0;
+}
+.header .icons .down {
+  margin-top: 0.8rem;
+}
+.header .menu a {
+  font-size: 20px;
+}
+
+.border {
+  background-color: #F1F1F1;
+  padding: 2rem 0;
+}
+.border .borderdiv {
+  border-bottom: 3px solid #224285;
+  position: relative;
+}
+.border .borderdiv .apply {
+  padding: 5px 2rem;
+  background: #224285;
+  color: white;
+  position: absolute;
+  right: 50%;
+  top: -15px;
+}
+.border .borderdiv .letter {
+  padding: 10px 2rem;
+  background: #5975B0;
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: -20px;
+}
+
+.input {
+  padding: 1rem;
+  color: #2242A3;
+  font-family: "Roboto", sans-serif;
+}
+.input .mb1 {
+  margin-bottom: 1.2rem;
+}
+.input .mt {
+  margin-bottom: 1rem;
+}
+.input .pr {
+  padding-right: 1rem;
+}
+.input .main {
+  padding: 1rem;
+  box-shadow: 5px 5px #D4E5EF;
+}
+.input .main .redstar {
+  color: red;
+  width: 10%;
+}
+.input .main .form {
+  height: 200vh;
+  font-size: 20px;
+}
+.input .main .form button {
+  width: 15%;
+  height: 50px;
+  box-shadow: 8px 7px grey;
+  background-color: #224285;
+  color: white;
+  border: none;
+  margin-top: 1rem;
+}
+.input .main .form .radio {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+.input .main .form .select {
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  border: 1px solid #CCCCCC;
+}
+.input .main .text {
+  height: 45px;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #CCCCCC;
+  margin-top: 5px;
+  background-color: #FAFAFA;
+}
+
+.footer {
+  padding: 2rem;
+}
+.footer ul {
+  list-style: none;
+}
+.footer .box {
+  width: 20%;
+}/*# sourceMappingURL=style.css.map */
