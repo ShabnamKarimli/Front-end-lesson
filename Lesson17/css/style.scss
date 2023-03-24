@@ -1,0 +1,24 @@
+img{
+    width: 100%;
+}
+img:hover{
+    opacity: 0.3;
+}
+
+    a:hover{
+        color: yellow;
+    }
+
+.box{
+    position: relative;
+    .text{
+        position: absolute;
+        top: 35px;
+        left: 25px;
+        p{
+            height: 4px;
+            width: 100px;
+            background-color: #FBB710;
+        }
+    }
+}
