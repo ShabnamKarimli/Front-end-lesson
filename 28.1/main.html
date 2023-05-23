@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <section class="applyPresident bg-light min-vh-100" style="color: #224285;">
+        <div class="border mb-5 mt-5 min-vh-50" style="border-bottom: 3px solid #224285;position: relative;">
+            <div class="apply position-absolute text-white  " style="display: inline-block;
+            ">MÜRACİƏTLƏR</div>
+            <div class="post position-absolute text-white d-inline-block  "> PREZİDENTƏ MƏKTUB YAZMAQ</div>
+        </div>
+        <div class="container bg-white min-vh-100 mt-5 pt-5 " style="width: 60%;">
+            <h4 class="">Hörmətli istifadəçi!</h4>
+            <h6 class="mt-4">Azərbaycan Respublikası Prezidenti cənab İlham Əliyevə və Prezident Administrasiyasına
+                məktub göndərmək
+                ücün aşağıdakı formanı doldurun. Diqqətli olmağınız Sizdən xahiş olunur!</h6>
+            <h6 class="mb-5">( <span class="text-danger font-weight-bold">*</span> - vacib sahələr) </h6>
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <label class="d-block" for="">Adınız <span class="text-danger font-weight-bold">*</span></label>
+                    <input id="fname" class="w-100 mr-1 bg-light border h-75 rounded" type="text">
+                    <small class="form-text  text-danger ">Bu sahə daxil edilməlidir</small>
+
+
+                </div>
+                <div class="col-lg-4">
+                    <label class="d-block" for="">Soyadınız <span class="text-danger font-weight-bold">*</span></label>
+                    <input id="sname" class="w-100  mr-1 ml-1 bg-light border h-75 rounded" type="text">
+                    <small id="" class="form-text  text-danger  ">Bu sahə daxil edilməlidir</small>
+                </div>
+
+                <div class="col-lg-4">
+                    <label for="">Atanızın adı <span class=" text-danger font-weight-bold">*</span></label>
+                    <input id="faname" class="w-100 ml-1 bg-light border h-75 rounded" type="text">
+                    <small id="" class="form-text  text-danger ">Bu sahə daxil edilməlidir</small>
+
+                </div>
+
+                <div class="col-lg-6 mt-5">
+                    <label for="">Ölkə <span class="text-danger font-weight-bold">*</span></label>
+                    <input type="checkbox" class=" mr-2" name="" id="check"><b>Azərbaycan</b>
+                    <input id="country" class="w-100 mr-1 bg-light border h-75 rounded" type="text">
+                    <small class="form-text  text-danger ">Bu sahə daxil edilməlidir</small>
+
+                </div>
+
+                <div class="col-lg-6 mt-5">
+                    <label class="d-block" for="">Şəhər <span class="text-danger font-weight-bold">*</span></label>
+                    <input id="city" class="w-100  bg-light border h-75 rounded" type="text">
+
+                    <select class="" name="" id="select1">
+                        <option value="1">Siyahidan seçin</option>
+                        <option value="2">Baki seheri</option>
+                        <option value="3">Gence seheri</option>
+                        <option value="4">seki seheri</option>
+                    </select>
+                    <small class="form-text  text-danger ">Bu sahə daxil edilməlidir</small>
+
+                    <select class="" name="" id="select2">
+                        <option value="1">Siyahidan seçin</option>
+                        <option value="2">mingecevir seheri</option>
+                        <option value="3">Gence seheri</option>
+                        <option value="4">seki seheri</option>
+
+                    </select>
+                    <small class="form-text  text-danger ">Bu sahə daxil edilməlidir</small>
+                </div>
+
+                <div class="col-lg-12 mt-5">
+                    <label class="d-block" for="">Ünvan <span class="text-danger font-weight-bold">*</span></label>
+                    <input id="place" class="w-100 mr-1 bg-light border h-75 rounded" type="text">
+                    <small class="form-text  text-danger ">Bu sahə daxil edilməlidir</small>
+
+                </div>
+
+                <div class="col-lg-6 mt-5">
+                    <label class="d-block" for="">Telefon <span class="text-danger font-weight-bold">*</span></label>
+                    <input id="tel" class="w-100 mr-1 bg-light border h-75 rounded" type="tel">
+                    <small class="form-text  text-danger ">Bu sahə daxil edilməlidir</small>
+
+                </div>
+                <div class="col-lg-6 mt-5">
+                    <label class="d-block" for="">E-mail <span class="text-danger font-weight-bold">*</span></label>
+                    <input id="email" class="w-100 mr-1 bg-light border h-75 rounded" type="email">
+                    <small class="form-text  text-danger ">Bu sahə daxil edilməlidir</small>
+
+                </div>
+
+
+
+
+                <div class="col-lg-2 mt-5 ">
+                    <label class="labelForm">Yaşınız <span class="text-danger font-weight-bold">*</span></label>
+                    <input id="age" class="w-100 mr-1 bg-light border h-50 rounded" type="number">
+                    <small class="form-text  text-danger ">Bu sahə daxil edilməlidir</small>
+
+                </div>
+
+                <div class="col-lg-3 mt-5 ">
+                    <label class="labelForm">Cinsiniz <span class="text-danger font-weight-bold">*</span></label>
+                    <div class="row mr-1 ml-1">
+                        <div class="row mr-4">
+                            <input class=" genders" type="radio" name="gender" value="Kişi">
+                            <label class="  ml-1">Kişi</label>
+                        </div>
+                        <div class="row">
+                            <input class="genders mr-1" type="radio" name="gender" value="Qadın">
+                            <label>Qadın</label>
+                        </div>
+                        <small class="form-text  text-danger  gendervalidation">Bu sahə daxil edilməlidir</small>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-7 mt-5 h-75 ">
+                    <label class="labelForm">Sosial durum <span class="text-danger font-weight-bold">*</span></label>
+
+                    <select name="social" id="social" class="p-2">
+                        <option value="1"> --Siyahıdan seçin --</option>
+                        <option value="2">dövlət qulluqçusu</option>
+                        <option value="3">Elmi isci</option>
+                        <option value="4">qulluqçu</option>
+                        <option value="5">telebe</option>
+                    </select>
+                    <small class="form-text  text-danger  ">Bu sahə daxil edilməlidir</small>
+
+                </div>
+                <div class="col-lg-6 mt-4">
+                    <label class="labelForm mb-2">Müraciətin növü <span
+                            class="text-danger font-weight-bold">*</span></label>
+                    <div class="row mt-3 ml-3 ">
+                        <div class="row mr-4">
+                            <input class=" mr-1" type="radio" name="advice" value="Təklif">
+                            <label>Təklif</label>
+                        </div>
+                        <div class="row  mr-4">
+                            <input class="mr-1" type="radio" name="advice" value="Ərizə">
+                            <label>Ərizə</label>
+                        </div>
+                        <div class="row  mr-4">
+                            <input class="mr-1" type="radio" name="advice" value="Şikayət">
+                            <label>Şikayət</label>
+                        </div>
+                        <small class="form-text  text-danger  adValidation">Bu sahə daxil edilməlidir</small>
+
+                    </div>
+                </div>
+                <div class="col-lg-12 mt-4 ">
+                    <label class="labelForm">Müraciətin mövzusu <span class="text-danger font-weight-bold">*</span>
+                    </label>
+                </div>
+                <div class="col-lg-8 mt-1 ">
+                    <label class="labelForm">Əsas mövzu <span class="text-danger font-weight-bold">*</span></label>
+
+                    <select class="p-2" name="subject" id="subjects">
+                        <option value="1">Seçin</option>
+                        <option value="2">Qəbul məsələləri</option>
+                        <option value="3">İctimai-siyasi məsələlər</option>
+                        <option value="4">Təltif, təqaüd və fəxri adlar məsələləri</option>
+                        <option value="5">İcra hakimiyyəti orqanlarının və bələdiyyələrin fəaliyyəti</option>
+                    </select>
+                    <small class="form-text  text-danger  ">Bu sahə daxil edilməlidir</small>
+
+                </div>
+
+                <div class="col-lg-12 mt-4 ">
+                    <label class="labelForm">Müraciət- </label>
+                    <span id="count">500</span>
+                    <span> işarə qalıb</span>
+                    <textarea id="textareas" rows="10"></textarea>
+                    <small class="form-text  text-danger  ">Bu sahə daxil edilməlidir</small>
+
+                </div>
+                <div class="col-lg-12 mt-4 ">
+                    <div class="btns text-center">
+                        <button id="button" class="mt-1 mb-5 border-0 d-inline-block text-white">Təsdiq edin</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>
