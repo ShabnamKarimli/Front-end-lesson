@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.project .box {
+    width: 30%;
+    background-color: #234b52;
+    min-height: 330px;
+    border-radius: 38%;
+    padding: 2.3rem;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+.project .fa-check{
+    color: #20484f;
+    border-radius: 100%;
+    padding: 0.5rem;
+    font-size: 20px;
+    background: #b8e4da;
+    margin-bottom: 1rem;
+}
+
+.project .line {
+    height: 15px;
+    background: #e9edee;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+}
+
+.project .box .boxCard1 {
+    background-color: white;
+    height: 100%;
+    border-radius: 15px;
+    padding: 1rem;
+}
+
+.project .box .boxCard1 .left {
+    width: 20%;
+}
+
+.project .box .boxCard1 .right {
+    width: 80%;
+}
+
+.project .box .boxCard1 button{
+    padding: 1rem;
+    width: 100%;
+    border-radius: 6px;
+    border: none;
+    background: #B8E4DA;
+}
+
+.project .box .boxCard2 {
+    background-color: white;
+    border-radius: 15px;
+    padding: 1rem;
+}
+
+
+.project .box .boxCard2 .left {
+    width: 20%;
+}
+
+.project .box .boxCard2 .right {
+    width: 80%;
+}
+
+.project .box:nth-child(2){
+    padding: 0;
+}
+
+.project .box:nth-child(2) .boxCard2{
+    border-radius: 0;
+    margin-top: 6rem;
+}
+.project .box .boxCard3
+{
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 2rem 1rem;
+    width: 80%;
+    margin: auto;
+}
+.project .box .boxCard3 img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.project .box .boxCard3 .line{
+    margin: 1rem auto;
+}
+
+.project .box .boxCard3 h3,
+.project .box .boxCard3 p{
+margin: 1rem 0;
+}

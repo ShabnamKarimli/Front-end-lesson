@@ -1,0 +1,64 @@
+.form-text {
+    display: none;
+}
+
+label {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#select1,
+#select2 {
+    display: none;
+}
+
+
+
+
+
+
+
+input[type=text],
+input[type=tel],
+input[type=number],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    display: block;
+    border-radius: 4px;
+    background-color: #fafafa;
+    border: solid 1px #cccccc;
+    font-size: 17px;
+    color: #224285;
+        height: 40px !important;
+}
+
+input[type=radio] {
+    height: 30px;
+    width: 30px;
+}
+
+
+
+.btns button {
+    box-shadow: 8px 8px #7F7F7F;
+    background-color: #224285;
+    padding: 14px 25px;
+    font-size: 18px;
+}
+
+.apply {
+    padding: 5px 2rem;
+    background: #224285;
+    right: 50%;
+    top: -15px;
+
+}
+
+.post {
+    padding: 10px 2rem;
+    background: #5975B0;
+    left: 50%;
+    top: -20px;
+}
